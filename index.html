@@ -1,1 +1,49 @@
-Bienvenue
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AICHA</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="chat-container">
+        <header>
+            <div class="user-info">
+                <img src="img/aicha.jpg" alt="Avatar">
+                <h3>AICHA</h3>
+            </div>
+            <div class="chat-actions">
+                <i class="fas fa-video"></i>
+                <i class="fas fa-phone"></i>
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+        </header>
+
+        <div class="chat-box" id="chatContent">
+            <div class="message received">
+                <p>Salut ! Comment tu vas ?</p>
+                <span class="time">12:45</span>
+            </div>
+            <div class="message sent">
+                <p>Je vais bien, merci ! Et toi ?</p>
+                <span class="time">12:46</span>
+            </div>
+        </div>
+
+        <footer>
+
+            <i class="fas fa-camera"></i>
+            
+            <input id="message"type="text" placeholder="Écrire un message...">
+            <button onclick="sendMessage()"> 
+
+              <i class="fas fa-paper-plane"></i></button>
+        </footer>
+    </div>
+<script src="scripts.js"></script>
+</body>
+</html>
