@@ -1,0 +1,94 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    width: 95%;
+    max-width: 800px;
+    background: #f8f9fa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#user-input {
+    flex-grow: 0.1; /* 🡺 Devient l’élément dominant */
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #fff;
+    resize: none;
+    height: 40px;
+}
+
+.btn.icon-btn, #send-button {
+    flex-grow: 0; /* 🡺 Empêche les boutons de grandir */
+    flex-shrink: 1; /* 🡺 Laisse les boutons rétrécir si besoin */
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+    transition: 0.3s ease;
+}
+
+#send-button {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#send-button:hover {
+    background: #0056b3;
+}
+
+.profil-circle {
+    width: 35px; /* Taille du cercle */
+    height: 35px; /* Taille du cercle */
+    border-radius: 50%; /* Forme du cercle */
+    overflow: hidden; /* Cache les parties de l'image qui dépassent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none; /* Optionnel : bordure autour du cercle */
+}
+
+.profil-img {
+    width: 100%; /* L'image prend toute la largeur du cercle */
+    height: 100%; /* L'image prend toute la hauteur du cercle */
+    object-fit: cover; /* S'assure que l'image couvre tout l'espace du cercle sans déformation */
+}
+
+.menu2{
+  font-size : 12px;
+  
+}
+#models {
+  border:none;
+  background: none;
+  font-size: 15px;
+  width : 95px;
+}
+
+
+#chatListeButton {
+  position: flex;
+  left: 0px;
+  border-block-color: green;
+  border:none;
+  width: 0px;
+  align-content: left;
+  font-size: 32px;
+
+}
+
+#sidebar-toggle {
+  font-size: 25px;
+}
