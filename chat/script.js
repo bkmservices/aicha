@@ -13,7 +13,7 @@ const modeToggle =
 const sidebar = 
     document.querySelector('.sidebar');
 
-var chat_id = "6b27030a-a078-490b-a77f-37ac502816f4"
+var chat_id = "8d829c65-a0b8-42b5-ae6d-fa168a91c5de"
 
 
 
